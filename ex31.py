@@ -43,9 +43,11 @@ elif door == "2":
 
     goblin = input("> ")
 
-    if goblin == "1" or goblin == "2":
+    if goblin == "1":
         print("The goblins laugh at you and throw the rock back.")
         print("You get hit in the head and die.")
+    elif goblin == "2":
+        print("You run away and the goblins chase you down")
     elif goblin == "3":
         print("The goblins are startled, then stick you like a pig.")
         print("You die.")
